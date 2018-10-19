@@ -1,4 +1,4 @@
-# math
+# Math Repository
 This Repository is for Studying about mathematics.
 
 ## Try Solve Me Series
