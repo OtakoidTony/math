@@ -1,0 +1,42 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\let\ds\displaystyle
+\usepackage[cjk]{kotex}
+
+\ExamClass{High School Mathematics}
+\ExamName{Try solve this!}
+\ExamHead{\today}
+\begin{document}
+
+\ExamNameLine
+\ExamInstrBox{
+\textbf{제시문 A}\\\\
+집합 $\{ x|-\infty <x< \infty \}$을 $\mathbb{R}$이라 표기하며 집합 $\mathbb{R}\cup \{-\infty ,\infty \}$를 $\tilde{\mathbb{R}}$이라 정의 및 표기하고 이를 확장된 실수계(또는 확장된 실수 집합)라고 부른다. 또한 정의역과 치역이 $\tilde{\mathbb{R}}$인 임의의 함수$f(x)$에 대하여 $f(\infty)=-\infty$와 같은 표기가 가능하다. 이와 반대로 실수함수의 경우는 임의의 실수함수$f(x)$에 대하여 $f(\infty)=-\infty$와 같은 표기는 불가능하다.\\
+\\
+\textbf{제시문 B}\\\\
+변수가 $k$이고 치역이 $\mathbb{R}$인 임의의 함수 $C_k$에 대하여 실수함수 $f(x,n)$를 다음과 같이 정의한다.\\
+\[
+f(x,n)=\sum_{k=0}^n C_k x^k
+\]
+
+}
+
+\begin{enumerate}
+   \item $C_k=\frac{1}{k!} $일 때, 함수 $y=\lim_{n \to \infty} f(x,n)$가 $\frac{dy}{dx} =y$를 만족함을 보여라.
+        \noanswer[1in]
+        
+   \item 이항정리를 이용하여 $C_k=\frac{1}{k!} $일 때, 함수 $y=\lim_{n \to \infty} f(x,n)=e^x$임을 보여라.
+        \noanswer[1in]
+        
+   \item $n\in\mathbb{R}$일 때 모든 함수 $y=f(x,n)$에 대하여 $x$에 관한 방정식 $f(x,n)=0$의 해집합을 $A$이라 하자. 이 때 $A$를 조건제시법으로 표기하여라.
+        \noanswer[1in]
+   \item 문항3에서의 집합 $A$의 원소인 임의의 실수 $k$에 대하여 $\frac{f'(k,n)}{\left\lbrace f(k)\right\rbrace ^2}$가 수렴하는지 발산하는지를 밝혀내고 수렴한다면 수렴하는 값을 구하여라.
+        \noanswer[1in]     
+
+\end{enumerate}
+\end{document}
+

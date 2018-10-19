@@ -1,0 +1,42 @@
+\documentclass[fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+
+\let\ds\displaystyle
+\usepackage[cjk]{kotex}
+
+\ExamClass{High School Mathematics}
+\ExamName{Try solve this!}
+\ExamHead{\today}
+\begin{document}
+
+\ExamNameLine
+\ExamInstrBox{
+\textbf{제시문 A}\\\\
+ 함수 $S(x)$를 다음과 같이 정의한다.
+\[
+S(x)=\sum_{n=0}^\infty x^n
+\]
+
+\textbf{제시문 B}\\\\
+ 복소수$z$가 $x+yi$일 때 복소수$z$의 크기 $|z|$를 $\sqrt{ x^2 + y^2 }$으로 정의한다.\\
+ 
+\textbf{제시문 C}\\\\
+ 제시문 A에서의 함수$S(x)$에 대하여 함수 $f(x)$를 다음과 같이 정의한다.
+ \[
+ f(x)=\int_0^x{S(t)S(-t)dt}
+ \]
+}
+
+\begin{enumerate}
+   \item 복소수 $z$에 대하여 $z=x+yi$라 하자. 이 때 $S(z)$가 수렴하게 하는 $z$값들의 집합을 $(x,y)$에 관한 조건제시법으로 정의된 집합으로 표현하여라. (예를 들어 $3+4i$는 $(3, 4)$이다.)
+        \noanswer[1in]
+   \item $S(z)$가 수렴하게 하는 $z$값들의 집합을 $C$라 하자. 이 때, C의 넓이를 구하여라. 
+        \noanswer[1in]
+   \item $f(x)$의 값이 실수인 $x$의 최댓값과 최소값을 각각 $a,b$라 하자. 이 때 $a,b$의 값을 각각 구하고 $\int_b^a{f(t)}dt$를 구하여라.
+        \noanswer[1in]        
+
+\end{enumerate}
+\end{document}
+
